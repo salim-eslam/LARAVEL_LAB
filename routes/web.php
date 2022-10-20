@@ -26,6 +26,10 @@ Route::put('/update/{id}', [\App\Http\Controllers\ProductController::class, 'upd
 
 Route::resource('/category', '\App\Http\Controllers\CategoriesController');
 
+Route::resource('/user', '\App\Http\Controllers\UserController');
+
+
+
 
 // get
 // post
